@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+ </head>
+ <body>
+
+    <h1 id="header">Hello World</h1>
+    <h3>How are you...</h3>
+    <article>
+        <section>
+            This is the section of the image.
+            <div>
+            <h1>this is it...</h1>
+            <img width="10%" height="10%" src="i.jpg" alt="">
+            </div>
+        </section>
+        <h1>Application</h1>
+        <br>
+        <br>
+        <br>
+        <div>
+            <video width="300" height="300" controls>
+            <source src="a.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <audio width="100" height="100" controls>
+            <source src="salamat.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <br>
+        <br>
+        <br>
+        <marquee behavior="sliding" direction="left">helloo</marquee>
+        <section>
+            <form action="GET">
+                Name    <input type="text" placeholder="name">
+                <br>
+                Surname<input type="text" placeholder="surname">
+                <br>
+                <!-- we can select multiple option in checkbox though name of the element is same -->
+                <input type="checkbox" name="course" value="=group A" id="">Group A
+                <input type="checkbox" name="course" value="group B" id="">Group B
+                <div>
+                <!-- We can select only one option in the list if the name is same. we can select multiple options if name is different. -->
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+                </div>
+                <div>
+                    <label for="college">college</label>
+                    <select name="clg" id="">
+                        <!-- <option value="" selected disabled >select the college</option> -->
+                        <option value="CSPIT">CSPIT</option>
+                        <option value="Depstar">Depstar</option>
+                        <option value="DDU">Ddu</option>
+                        <option value="ADIT">ADIT</option>
+                        college
+                    </select>
+                </div>
+                <button type="submit">submit</button>
+            </form>
+        </section>
+    </article>
+
+    
+ </body>
+ </html>
