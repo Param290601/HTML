@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 body{    
     font-family: Robot mono, monospace;
+    font-style: italic;
+    font-weight: 600;
     background: rgb(236, 238, 237);
     color: rgb(10, 10, 10);
     margin: 0px;
+    background-image: url("a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     color: white;
@@ -13,6 +18,7 @@ h1{
 }
 h3{
     display: inline-block;
+    text-decoration: overline;
 }
 body h1{
     /* margin: 0px; */
@@ -39,9 +45,20 @@ body > article > section > div > h1{
     max-width: 100%;
     position: relative;
     display: inline-block;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px 5px black;
+    margin: 10px;
+    padding: 10px;
 }
 img{
     position: relative;
     width: 400px;
     height: 400px;
+}
+p{
+    /* letter-spacing: 20px;
+    word-spacing: -20px; */
+    text-align: center;
+    text-indent: 20px;
+    text-shadow: 5px 5px 5px blue;
 }
